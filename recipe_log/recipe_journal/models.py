@@ -1,6 +1,8 @@
 from django.db import models
 
 # Create your models here.
+
+#Add_Recipe Model for Admin UI
 class Add_Recipe(models.Model):
     """ADD Recipe option"""
     Title = models.CharField(max_length=200)
@@ -17,7 +19,8 @@ class Add_Recipe(models.Model):
     def __str__(self):
         """Return a string represention of the Model."""
         return self.text
-        
+
+#Entry Model for Admin UI        
 class Entry(models.Model):
     """Details about the entries"""
     text=models.TextField()

@@ -1,0 +1,1 @@
+#Details from the register page
